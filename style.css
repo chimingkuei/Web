@@ -1,0 +1,27 @@
+.background {
+  background-size: 1600px 695px;
+}
+.img {
+    display: block;          /* img 預設是 inline，要改成 block */
+    margin: 0 auto;          /* 水平置中 */
+    border: 5px gray solid;
+}
+th{
+    background-color:#f19465;
+    width:10vw;
+    height:10px;
+  }
+td{
+    background-color:#4cbdc1;
+    width:10vw;
+    height:10px;
+    text-align:center;
+  }
+.test{
+  column-count: 3;
+  column-gap: 20px;
+}
+.pane {
+  flex: 1;
+  border: 1px solid black;
+}
